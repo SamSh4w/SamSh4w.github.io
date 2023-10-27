@@ -15,10 +15,12 @@ header{border: solid rgb(0, 0, 0);
 #Title{margin-left: 7.5%;
        color: rgb(43, 43, 43);
        font-family:'Silkscreen', sans-serif;
-       font-size: 200%;
+       font-size: 200%;;
     }
-#nav{border: solid rgb(0, 0, 0);
-     background-color: rgb(43, 43, 43);
+#nav{border-top: solid rgb(43, 43, 43);
+    border-left: solid rgb(0, 0, 0);
+    border-right: solid rgb(0, 0, 0);
+    border-bottom: solid rgb(0, 0, 0);
      width: 7.5%;
      height: 48.2rem;
     }
@@ -27,15 +29,14 @@ header{border: solid rgb(0, 0, 0);
 .tmpbutton{border: solid rgb(43, 43, 43);
            background-color: rgb(43,43,43);
            margin-left:-1.5% ;
-           margin-top: -4%;
            width: 103%;
-           height: 10%;
+           height: 16.719%;
     }
 .tmpbutton:hover{background-color: black;
                  color: whitesmoke;
+                 text-decoration: underline;
     }
 .tmpbutton:active{
     box-shadow: 0 0.5vh 0 -1.3px #666;
     transform: translateY(10%);
 }
-.foot{}
