@@ -1,0 +1,51 @@
+/* CSS Code For WebPage And Body Element */
+html{overflow: hidden;}
+body{background-color: rgb(0, 0, 0);}
+
+/* Code For Styling The Embedded JavaScript Terminal */
+#termx{height:90%; width:50%; position:absolute; top:5%; left:15%; overflow: hidden;}
+#Aa{
+    position: fixed;
+    top: 86%;
+    left: 15.5%; 
+    width: 49%;
+    background-color: rgb(51, 51, 51);
+    transition-duration: 0.4s;
+    border-bottom-left-radius: 1vh;
+    border-bottom-right-radius: 1vh;
+    box-shadow: 0 1.1vh 0 -1.3px #999;
+}
+#Aa:hover{
+    color: white;
+}
+#Aa:active{
+    background-color: rgb(51, 51, 51);
+    box-shadow: 0 0.5vh 0 -1.3px #666;
+    transform: translateY(10%);
+}
+/* CSS Code For Styling The NotePad */
+#NotePad{background-color: rgb(51, 51, 51); width:25%; height: 75%; position: absolute; left: 70%; top:9%; border-top-right-radius: 1vh; border-top-left-radius: 1vh;}
+#note{background-color: rgb(51, 51, 51); width: 99%; height: 91%; position: absolute; resize: none; border: none; border-top-right-radius: 1vh; border-top-left-radius: 1vh;}
+
+
+/* CSS Code For Styling Buttons */
+#saveButton{background-color: rgb(51, 51, 51); width:34%; height: 9%; position: absolute; left: 66.40%; top:92%;}
+#del{background-color: rgb(51, 51, 51); width: 34%; height: 9%; position: absolute; left: 32.9%; top:92%;}
+#load{background-color: rgb(51, 51, 51); width: 34%; height: 9%; position: absolute; left: -0.60%; top:92%;}
+.button {
+    transition-duration: 0.4s;
+    border-bottom-left-radius: 1vh;
+    border-bottom-right-radius: 1vh;
+    box-shadow: 0 1.1vh 0 -1.3px #999;
+}
+  
+.button:hover {
+    background-color: transparent;
+    color: white;
+}
+.button:active{
+    background-color: transparent;
+    box-shadow: 0 0.5vh 0 -1.3px #666;
+    transform: translateY(10%);
+}
+/**/

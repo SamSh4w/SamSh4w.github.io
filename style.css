@@ -23,6 +23,7 @@ header{border: solid rgb(0, 0, 0);
     border-bottom: solid rgb(0, 0, 0);
      width: 7.5%;
      height: 48.2rem;
+     float: left;
     }
 .navtitle{font-family: 'Silkscreen', sans-serif;
 }
@@ -31,6 +32,7 @@ header{border: solid rgb(0, 0, 0);
            margin-left:-1.5% ;
            width: 103%;
            height: 16.719%;
+           size-adjust:inherit;
     }
 .tmpbutton:hover{background-color: black;
                  color: whitesmoke;
@@ -40,3 +42,4 @@ header{border: solid rgb(0, 0, 0);
     box-shadow: 0 0.5vh 0 -1.3px #666;
     transform: translateY(10%);
 }
+#termx{height:90%; width:50%; position:absolute; top:10%; left:25%; overflow: hidden; float: right;}
